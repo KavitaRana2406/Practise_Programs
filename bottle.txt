@@ -1,0 +1,30 @@
+public class A
+{
+public static void main(String[] s)
+{
+int bot_num=99;
+String word="Bottles";
+ while(bot_num>0) 
+{
+if(bot_num==1)
+{
+word="Bottle";
+}
+
+System.out.println(bot_num+" "+ word +"of beer in the wall.");
+System.out.println(bot_num+" "+ word +"of beer.");
+System.out.println("Take one down.");
+System.out.println("Pass it on.");
+bot_num=bot_num-1;
+
+if(bot_num>0)
+{
+System.out.println(bot_num+" "+ word + "of beer on the wall.");
+}
+else
+{
+System.out.println("No more beer..");
+}
+}
+}
+}
